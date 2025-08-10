@@ -9,8 +9,21 @@
 
 # print(name + ' likes ' + fav_color + '.')
 
-brith_year = input('Enter your birth year :')
+# brith_year = input('Enter your birth year :')
 
-age = 2025 - int(brith_year)
+# print(type(brith_year))
 
-print(age)
+# age = 2025 - int(brith_year)
+
+# print(type(brith_year))
+
+# print(age)
+
+# weight_lbs = input('Enter your weight in lbs : ')
+# weight_kg = int(weight_lbs) * 0.45
+
+# print('Your weight in kg is : ', weight_kg)
+
+course ='Python Programming'
+
+print(course[-10])
