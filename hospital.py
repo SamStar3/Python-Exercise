@@ -24,6 +24,14 @@
 
 # print('Your weight in kg is : ', weight_kg)
 
-course ='Python Programming'
+# course ='Python Programming'
 
-print(course[-10])
+# print(course[5 : 6])
+
+first_nane ='Sam'
+last_name ='John'
+
+message = first_name + ' [ ' + last_name + ' ] is a coder'
+
+msg = f'{first_nane} [ {last_name} ] is a coder '
+print(msg)
