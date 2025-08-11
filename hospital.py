@@ -36,13 +36,24 @@
 # msg = f'{first_nane} [ {last_name} ] is a coder '
 # print(msg)
 
-course = 'Python Programming'
-print(len(course))
+# course = 'Python Programming'
+# print(len(course))
 
-print(course.upper())
+# print(course.upper())
 
-print(course.lower())
+# print(course.lower())
 
-print(course.find('om'))
+# print(course.find('om'))
 
-print(course.replace('P', 'J'))
+# print(course.replace('P', 'J'))
+
+# print('python' in course )
+
+# print(course.title())
+
+print(10 // 3)
+print(10%4)
+
+print ( 5 ** 2)
+
+print(10**3)
