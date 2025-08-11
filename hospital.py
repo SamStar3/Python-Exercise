@@ -28,10 +28,21 @@
 
 # print(course[5 : 6])
 
-first_nane ='Sam'
-last_name ='John'
+# first_nane ='Sam'
+# last_name ='John'
 
-message = first_name + ' [ ' + last_name + ' ] is a coder'
+# message = first_name + ' [ ' + last_name + ' ] is a coder'
 
-msg = f'{first_nane} [ {last_name} ] is a coder '
-print(msg)
+# msg = f'{first_nane} [ {last_name} ] is a coder '
+# print(msg)
+
+course = 'Python Programming'
+print(len(course))
+
+print(course.upper())
+
+print(course.lower())
+
+print(course.find('om'))
+
+print(course.replace('P', 'J'))
