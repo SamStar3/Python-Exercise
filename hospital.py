@@ -51,9 +51,19 @@
 
 # print(course.title())
 
-print(10 // 3)
-print(10%4)
+# print(10 // 3)
+# print(10%4)
 
-print ( 5 ** 2)
+# print ( 5 ** 2)
 
-print(10**3)
+# print(10**3)
+
+# x = 2.9
+
+# print(round(x))
+
+# print(abs(-2.9))
+
+import math 
+
+print(math.ceil(2.9))
