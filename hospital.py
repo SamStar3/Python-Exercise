@@ -64,6 +64,29 @@
 
 # print(abs(-2.9))
 
-import math 
+# import math 
 
-print(math.ceil(2.9))
+# print(math.ceil(2.9))
+# print(math.floor(2.9))
+# print(math.pi)
+
+# hot = False
+# cold = True
+
+# if hot:
+#     print("It's a hot day")
+# elif cold:
+#     print("It's a cold day")
+# else: 
+#     print("It's a lovely day")
+# print("Enjoy your day")
+
+price = 1000000
+GOOD_CREDIT = True
+# payment
+
+if GOOD_CREDIT:
+    payment = 0.1 * price
+else :
+    payment = 0.2 * price 
+print(f'Your payment is : {payment}')
