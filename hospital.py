@@ -109,11 +109,21 @@
 # else: 
 #     print("It's not a hot day")
 
-name = 'sam'
+# name = 'sam'
 
-if len(name) < 3:
-    print("Nmae must be atleast 3 characters")
-elif len(name) > 50:
-    print("Name can be a maximum of 50 characters")
+# if len(name) < 3:
+#     print("Nmae must be atleast 3 characters")
+# elif len(name) > 50:
+#     print("Name can be a maximum of 50 characters")
+# else:
+#     print("Name looks good")
+
+weight = int(input("Enter your weight in lbs: "))
+unit = int(input("Enter 'K for kg or 'L' for lbs: "))
+
+if unit.upper() == 'L':
+    result = int(weight) * 0.45
+    print(f'Your weight in kg is: {result}')
 else:
-    print("Name looks good")
+    result = int(weight) / 0.45
+    print(f'Your weight in lbs is: {result}')
