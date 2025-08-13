@@ -81,12 +81,39 @@
 #     print("It's a lovely day")
 # print("Enjoy your day")
 
-price = 1000000
-GOOD_CREDIT = True
+# price = 1000000
+# GOOD_CREDIT = True
 # payment
 
-if GOOD_CREDIT:
-    payment = 0.1 * price
-else :
-    payment = 0.2 * price 
-print(f'Your payment is : {payment}')
+# if GOOD_CREDIT:
+#     payment = 0.1 * price
+# else :
+#     payment = 0.2 * price 
+# print(f'Your payment is : {payment}')
+
+# goodcridit = True
+# criminalrecord = False 
+
+# if goodcridit and criminalrecord:
+#     print("You are eligible fot the loan")
+
+# if goodcridit or criminalrecord:
+#     print("You are eligible for the loan")
+
+# temperature = 30 
+
+# if temperature > 30: 
+#     print("It;s a hot day")    
+# elif temperature == 35:
+#     print("It's a very hot day")
+# else: 
+#     print("It's not a hot day")
+
+name = 'sam'
+
+if len(name) < 3:
+    print("Nmae must be atleast 3 characters")
+elif len(name) > 50:
+    print("Name can be a maximum of 50 characters")
+else:
+    print("Name looks good")
