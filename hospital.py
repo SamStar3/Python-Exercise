@@ -118,12 +118,18 @@
 # else:
 #     print("Name looks good")
 
-weight = int(input("Enter your weight in lbs: "))
-unit = int(input("Enter 'K for kg or 'L' for lbs: "))
+# weight = int(input("Enter your weight in lbs: "))
+# unit = int(input("Enter 'K for kg or 'L' for lbs: "))
 
-if unit.upper() == 'L':
-    result = int(weight) * 0.45
-    print(f'Your weight in kg is: {result}')
-else:
-    result = int(weight) / 0.45
-    print(f'Your weight in lbs is: {result}')
+# if unit.upper() == 'L':
+#     result = int(weight) * 0.45
+#     print(f'Your weight in kg is: {result}')
+# else:
+#     result = int(weight) / 0.45
+#     print(f'Your weight in lbs is: {result}')
+
+i = 10
+
+while i > 0:
+    print(i)
+    i -= 1
