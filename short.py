@@ -7,3 +7,6 @@ while comment.lower != "stop":
     comment = input("> ").lower()
     if comment.lower() == "stop":
         break
+
+
+print("this is long term goal")
