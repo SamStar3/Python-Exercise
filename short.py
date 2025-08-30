@@ -10,3 +10,5 @@ while comment.lower != "stop":
 
 
 print("this is long term goal")
+
+
